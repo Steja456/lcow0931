@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Food Scale - Amazon Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <img src="C:\Users\user\OneDrive\Desktop\shopping-list\images\logo.jpeg" alt="Shopping" class="logo">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button class="search-button">Search</button>
+            <div class="cart-icon">
+                <img src="C:\Users\user\OneDrive\Desktop\shopping-list\images\cart.png" alt="Cart">
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="product-container">
+            <div class="product-image">
+                <img src="C:\Users\user\OneDrive\Desktop\shopping-list\images\scale1.jpeg" alt="Digital Food Scale">
+            </div>
+            <div class="product-details">
+                <h1>Digital Food Scale</h1>
+                <div class="rating">
+                    <span>⭐⭐⭐⭐☆</span>
+                    <span class="review-count">4.5 | 245 reviews</span>
+                </div>
+                <p class="price">$25.99</p>
+                <p class="product-description">
+                    This digital food scale is perfect for your kitchen needs. It features a sleek design, 
+                    accurate measurements, and easy-to-read digital display. Ideal for dieting, baking, and more.
+                </p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Additional Information -->
+        <div class="additional-info">
+            <h2>Product Information</h2>
+            <ul>
+                <li>Brand: Kitchen Essentials</li>
+                <li>Model: KS-2024</li>
+                <li>Material: Stainless Steel</li>
+                <li>Maximum Weight: 11 lbs</li>
+                <li>Battery: 2 x AAA</li>
+            </ul>
+
+            <h2>Customer Reviews</h2>
+            <div class="reviews">
+                <div class="review">
+                    <p><strong>John D.</strong> ⭐⭐⭐⭐⭐</p>
+                    <p>Great product! Very accurate and easy to use.</p>
+                </div>
+                <div class="review">
+                    <p><strong>Emily R.</strong> ⭐⭐⭐⭐☆</p>
+                    <p>Works well but could be a bit larger.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="cart-summary-container" id="cart-summary-container">
+        <h2>Shopping Cart</h2>
+        <div class="cart-items">
+            <!-- Dynamically loaded cart items go here -->
+        </div>
+        <div class="cart-summary">
+            <p>Total Items: <span class="cart-total-items">0</span></p>
+            <p>Total Price: $<span class="cart-total-price">0.00</span></p>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Digital Food Scale Shop. All rights reserved.</p>
+            <p>Privacy Policy | Terms of Service</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

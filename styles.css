@@ -1,0 +1,161 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header Styling */
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: #04791602;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.34);
+}
+
+.logo {
+    width: 120px;
+    margin-right: 20px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #dce2ed;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-icon {
+    position: relative;
+    margin-left: 20px;
+}
+
+.cart-icon img {
+    width: 35px;
+}
+
+.cart-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #14ec4a;
+    color: rgb(41, 93, 4);
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 14px;
+}
+
+/* Main Content Styling */
+.product-container {
+    display: flex;
+    background-color: rgb(220, 224, 226);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(103, 19, 19, 0.1);
+}
+
+.product-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-details {
+    margin-left: 30px;
+    max-width: 500px;
+}
+
+.product-details h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rating span {
+    margin-right: 10px;
+}
+
+.price {
+    font-size: 24px;
+    color: #7c6d6a;
+    margin-bottom: 15px;
+}
+
+.product-description {
+    margin-bottom: 20px;
+}
+
+.add-to-cart-btn {
+    padding: 15px 25px;
+    background-color: #46f784;
+    border: 1px solid #a2ea2f;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #524e3a;
+}
+
+/* Additional Info Styling */
+.additional-info {
+    background-color: rgb(219, 241, 183);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(5, 3, 127, 0.913);
+}
+
+.additional-info h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.additional-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.additional-info .reviews .review {
+    margin-bottom: 15px;
+}
+
+.additional-info .reviews .review p {
+    margin-bottom: 5px;
+}
+
+/* Footer Styling */
+.footer-container {
+    background-color: #180dee;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.footer-container p {
+    margin-bottom: 5px;
+}
